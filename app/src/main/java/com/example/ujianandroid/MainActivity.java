@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // Menambahkan informasi umur, nama, dan status ke daftar_nama
                     daftar_nama.clear();
-                    for (int i = 1; i <= 60; i++) {
+                    for (int i = 1; i <= umur; i++) {
                         daftar_nama.add(i + " " + nama_lengkap + " " + status_umur);
                     }
 
